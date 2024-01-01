@@ -4,8 +4,8 @@
 
 ### IN THIS API THERE ARE FOLLOWING ROUTES. 
 
-####  /signup (POST REQUEST)
-####  /login  (POST REQUEST)
+####  /signup (post request)
+####  /login  (post request)
 
 ## PROTECTED ROUTES
 
@@ -16,7 +16,9 @@
 ####  /update/:id     (delete request)
 
 
-#### INPUT FORMAT FOR /login and /signup
+### INPUT FORMAT FOR  
+### /login 
+### /signup
 
 {
     "email":"",
@@ -27,7 +29,8 @@
 ### NOTE: On successfull login user gets one token in response which should be included in authorization header to access protected routes
 
 
-### INPUT FORMAT FOR /create
+### INPUT FORMAT FOR 
+### /create
 
 {
     "title":"",
