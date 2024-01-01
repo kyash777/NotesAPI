@@ -4,16 +4,16 @@
 
 ### IN THIS API THERE ARE FOLLOWING ROUTES. 
 
-####  /signup (post request)
-####  /login  (post request)
+###  /signup (post request)
+##  /login  (post request)
 
 ## PROTECTED ROUTES
 
-####  /create (post request)
-####  /notes  (get request)
-####  /note/:id      (get request)
-####  /delete/:id     (delete request)
-####  /update/:id     (delete request)
+###  /create (post request)
+###  /notes  (get request)
+###  /note/:id      (get request)
+###  /delete/:id     (delete request)
+###  /update/:id     (delete request)
 
 
 ### INPUT FORMAT FOR  
