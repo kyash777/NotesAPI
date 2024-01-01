@@ -5,7 +5,7 @@
 ### IN THIS API THERE ARE FOLLOWING ROUTES. 
 
 ###  /signup (post request)
-##  /login  (post request)
+###  /login  (post request)
 
 ## PROTECTED ROUTES
 
