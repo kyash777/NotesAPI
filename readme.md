@@ -13,7 +13,7 @@
 ###  /notes  (get request)
 ###  /note/:id      (get request)
 ###  /delete/:id     (delete request)
-###  /update/:id     (delete request)
+###  /update/:id     (put  request)
 
 
 ### INPUT FORMAT FOR  
