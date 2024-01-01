@@ -1,24 +1,19 @@
 ### NOTES MANAGER REST API
 
-### API SETUP
-1 Download files from git repo.
-2 run command "npm install" to install all dependencies.
-3 run command "node app.js" to start the api.
+## TESTING API
 
-### TESTING API
+### IN THIS API THERE ARE FOLLOWING ROUTES. 
 
-#### IN THIS API THERE ARE FOLLOWING ROUTES. 
+####  /signup (POST REQUEST)
+####  /login  (POST REQUEST)
 
-#####  /signup (POST REQUEST)
-#####  /login  (POST REQUEST)
+## PROTECTED ROUTES
 
-#### PROTECTED ROUTES
-
-#####  /create (POST REQUEST)
-#####  /notes  (GET REQUEST)
-#####  /note/:id      (GET REQUEST)
-#####  /delete/:id     (DELETE REQUEST)
-#####  /update/:id     (PUT REQUEST)
+####  /create (post request)
+####  /notes  (get request)
+####  /note/:id      (get request)
+####  /delete/:id     (delete request)
+####  /update/:id     (delete request)
 
 
 #### INPUT FORMAT FOR /login and /signup
@@ -28,10 +23,11 @@
     "password":""
 }
 
-#### NOTE:ON SUCCESSFULL LOGIN USER GETS ONE TOKEN IN RESPONSE WHICH SHOULD BE IN AUTHORIZATION HEADER TO ACCESS PROTECTED ROUTES.
+
+### NOTE: On successfull login user gets one token in response which should be included in authorization header to access protected routes
 
 
-#### INPUT FORMAT FOR /create
+### INPUT FORMAT FOR /create
 
 {
     "title":"",
