@@ -1,4 +1,4 @@
-### NOTES MANAGER REST API
+# NOTES MANAGER REST API
 
 ## TESTING API
 
@@ -7,7 +7,7 @@
 ###  /signup (post request)
 ###  /login  (post request)
 
-## PROTECTED ROUTES
+### PROTECTED ROUTES
 
 ###  /create (post request)
 ###  /notes  (get request)
